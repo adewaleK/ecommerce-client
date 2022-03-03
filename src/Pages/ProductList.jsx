@@ -5,10 +5,6 @@ import Products from "../components/Products";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 
-const Container = styled.div`
-
-`;
-
 const Title = styled.h1``;
 const FilterContainer = styled.div`
    display: flex;
@@ -31,8 +27,7 @@ const Select = styled.select`
     margin-right: 20px;
    
 `
-const Option = styled.option`
-   
+const Option = styled.option`  
 `
 
 
