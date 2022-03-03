@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Search, ShoppingCartOutlined } from '@material-ui/icons'
 import { Badge } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 
 
 
@@ -71,7 +72,7 @@ const Navbar = () => {
                 </SearchContainer>
             </Left>
             <Center>
-                <Logo>KSA.</Logo>
+               <Link to='/'><Logo>KSA.</Logo></Link>
             </Center>
             <Right>
                <MenuItems>REGISTER</MenuItems>
